@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Javascript Basics</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	<div class="navigation">
+		<nav class="listing">
+			<ul>
+				<li>
+					<a ui-sref="home">Home</a>
+				</li>
+				<li>
+					<a ui-sref="contact">Contact</a>
+				</li>
+				<li>
+					<a ui-sref="email">Email</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	<div class="section-view">
+	<ui-view>
+		
+	</ui-view>
+	</div>
+	<script type="text/javascript" src="js/angular.min.js"></script>
+	<script type="text/javascript" src="js/angular-ui-router.js"></script>
+	<script type="text/javascript" src="js/all.js"></script>
+</body>
+
+</html>
